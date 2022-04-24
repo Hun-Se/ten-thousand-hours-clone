@@ -63,6 +63,7 @@ body {
 }
 
 body {
+
     background-color: var(--purple-color);
     color: var(--white-color);
 }
@@ -111,6 +112,7 @@ body {
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
+
 }
 
 .label-job {
@@ -137,7 +139,7 @@ body {
     line-height: 24px;
 }
 
-.btn-start {
+.form-filed .btn-start {
     margin-top: 115px;
     padding: 21px 49px;
     background-color: var(--yellow-color);
@@ -149,6 +151,221 @@ body {
     color: var(--purple-color);
 }
 
+.form-filed .btn-wrap {
+    position: relative;
+}
+
+.form-filed .img-click {
+    width: 33px;
+    position: absolute;
+    top: 150px;
+
+}
+
 .content-result {
     margin-top: 147px;
+}
+
+.content-result .result-job {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.content-result .result-time {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.content-result strong {
+    margin: 0 12px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.content-result .btn-openmodal {
+    padding: 21px 49px;
+    background-color: var(--yellow-color);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 56px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--purple-color);
+}
+
+.content-result .btn-share {
+    margin-top: 127px;
+    padding: 21px 49px;
+    background: var(--white-color);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 56px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--purple-color);
+}
+
+.content-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'OTEnjoystoriesBA';
+    font-style: normal;
+    width: 59rem;
+    padding: 76px 0 89px;
+    background-color: var(--white-color);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+
+
+.content-modal p:nth-of-type(1) {
+    color: var(--purple-color);
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 106px;
+}
+
+.content-modal p:nth-of-type(2) {
+    color: var(--purple-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.content-modal .btn-close {
+    margin-top: 30px;
+    padding: 21px 49px;
+    background-color: var(--yellow-color);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 56px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--purple-color);
+}
+
+.img-logo {
+    margin-top: 130px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+@media (max-width: 500px) {
+    .content-main .img-title {
+        width: 16rem;
+    }
+
+    .content-main .intro-comment {
+        font-size: 22px;
+    }
+
+    .content-main .explain {
+        width: 18rem;
+        background-size: 10% 10%;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .content-main .explain span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .content-main .form-filed {
+        font-size: 14px;
+        width: 20rem;
+    }
+
+    .form-filed input {
+        width: 9rem;
+        padding: 12px 35px 11px;
+    }
+
+    .form-filed .btn-wrap .btn-start {
+        width: 15rem;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .content-result .result-job {
+        width: 19rem;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .content-result .result-time {
+        width: 19rem;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .content-result strong {
+        font-weight: 700;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 24px;
+    }
+
+    .content-result .btn-openmodal {
+        padding: 13px 17px 12px;
+        width: 11rem;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .content-result .btn-share {
+        padding: 13px 17px 12px;
+        width: 11rem;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .content-modal {
+        width: 25rem;
+    }
+
+    .content-modal p:nth-of-type(1) {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 70px;
+    }
+
+    .content-modal p:nth-of-type(2) {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .content-modal .img-licat {
+        opacity: 0;
+    }
+
+    .content-modal .btn-close {
+        width: 15rem;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .content-main .copyright {
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 13px;
+    }
 }
