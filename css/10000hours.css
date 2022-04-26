@@ -363,6 +363,10 @@ body {
         line-height: 14px;
     }
 
+    .content-modal .btn-close .enter-line {
+        display: block;
+    }
+
     .content-main .copyright {
         font-weight: 400;
         font-size: 9px;
